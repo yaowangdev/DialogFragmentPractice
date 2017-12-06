@@ -8,4 +8,52 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="MyDialog" parent="android:style/Theme.Dialog">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <!--提示框是否有边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否需要标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--对话框的背景-->
+        <item name="android:windowBackground">@drawable/pd_shape</item>
+        <!--对话框是否悬浮-->
+        <item name="android:windowIsFloating">true</item>
+        <!--默认Window的content背景-->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--dialog遮罩透明度-->
+        <item name="android:backgroundDimAmount">0</item>
+        <!--是否需要dialog遮罩-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="MyDialog1" parent="android:style/Theme.Dialog">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <!--提示框是否有边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否需要标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--对话框的背景-->
+        <item name="android:windowBackground">@drawable/pd_shape</item>
+        <!--对话框是否悬浮-->
+        <item name="android:windowIsFloating">true</item>
+        <!--默认Window的content背景-->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--dialog遮罩透明度-->
+        <item name="android:backgroundDimAmount">0.5</item>
+        <!--是否需要dialog遮罩-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="pop_add_ainm" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_push_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_push_out</item>
+    </style>
+
+
+
 </resources>
